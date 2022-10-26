@@ -89,15 +89,6 @@ class Button {
     //scaling pic method #1
     imageMode(CENTER);
     image (pic, x, y, w*0.9, h*0.9);
-    
-    //scaling pic method #2
-    //imageMode(CENTER);
-    //pushMatrix();
-    //translate(45, 40);
-    //scale(0.9);
-    //image (pic, x, y, w, h);
-    //popMatrix();
-   
   }
   
   //clicking function
